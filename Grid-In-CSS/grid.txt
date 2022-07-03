@@ -1,0 +1,46 @@
+What is Grid in CSS 💁 ❓
+
+CSS Grid Layout is a two-dimensional grid-based layout system that, compared to any web layout system of the past, completely changes the way we design user interfaces. CSS has always been used to layout our web pages, but it’s never done a very good job of it. First, we used tables, then floats, positioning and inline-block, but all of these methods were essentially hacks and left out a lot of important functionality (vertical centering, for instance). Flexbox is also a very great layout tool, but its one-directional flow has different use cases — and they actually work together quite well! Grid is the very first CSS module created specifically to solve the layout problems we’ve all been hacking our way around for as long as we’ve been making websites.
+
+💁💁💁💁💁💁💁💁💁💁 👇..........   
+
+Difference Between CSS Flexbox and CSS grid ❓
+Layout 
+– The very first and the most important difference between the two layout modules is that CSS Flexbox is a one-dimensional layout model whereas CSS Grid is a two-dimensional model. By one-dimensional it means a Flexbox container can either facilitate laying out things in a row, or lay them out in a column. 
+
+The CSS Grid, on the other hand, can facilitate laying out items across and down at once, meaning you can work along two axes, vertically and horizontally, which the CSS Flexbox cannot do. Grid thinks about rows and columns at the same time.
+
+💁💁💁💁💁💁💁💁💁💁 👇..........
+
+Control
+ – CSS Flexbox helps you organize things horizontally in one direction or organize things vertically in one direction. The calculations are done in each row, one at a time with no regards to the other rows, and you can adjust justification and alignment controls inside each of these. 
+
+CSS Grid, on the other hand, gives you layout controls that work perfectly in two directions, which means it allows you to organize wherever you want inside of your grid cells.
+
+💁💁💁💁💁💁💁💁💁💁 👇..........
+
+Overlapping 
+– There are things that both Flexbox and Grid can do, meaning there are situations where they basically could do the same thing. But there is one thing Grid can do and the Flexbox cannot do is intentionally overlap items. For example, in magazine layouts you can see there are overlapping elements all the time. You can see layouts with little bits and little pieces overlapping other bits and other pieces. 
+
+💁💁💁💁💁💁💁💁💁💁 👇..........
+
+Use Cases
+ – Flexbox is basically content based. It listens to the content and adjusts to it. Grid operates more on the layout level and it is container based, meaning it basically dictates the structure. 
+
+So, CSS Grid is useful when you want to define a large-scale layout, while CSS Flexbox can be used on a smaller scale for flexible elements. 
+
+Flexbox can be used for scaling, one-sided aligning, and organizing elements within a container. Grid can be used to create more complex and subtle design layouts, and when there is a gap between block elements.
+
+For Practice of CSS grid 👇..........
+
+learn all about CSS grid visit the websites given below 👇..........
+https://learncssgrid.com/#grid-container
+https://learncssgrid.com/#explicit-grid
+https://learncssgrid.com/#repeating-grid-tracks
+https://learncssgrid.com/#grid-gaps
+https://learncssgrid.com/#positioning-items-grid-line-numbers
+
+download all files please visit 👉 https://github.com/mudassir-jmi/Web-Dev-Team-June
+
+Thank you!❤️‍🔥
+@_mudassir_codes🚀🥰🥰

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Media | Query🚀😄 </title>
+</head>
+<style>
+    #div1 {
+        width: 70%;
+        float: left;
+        background-color: indianred;
+    }
+    #div2 {
+        width: 70%;
+        float: left;
+        background-color: green;
+    }
+
+    h1 {
+        font-size: 80px;
+    }
+
+    @media screen and (max-width:820px){
+         #div1 {
+            width: 50%;
+         }
+         #div2 {
+            width: 50%;
+            border-radius: 50%;
+         }
+
+    }
+
+    @media screen and (max-width:400px){
+         #div1 {
+            width: 100%;
+         }
+         #div2 {
+            width: 100%;
+            background-color: blueviolet;
+         }
+
+    }
+
+            body {
+            background-color: #fff;
+            }
+
+            @media (min-width: 30em) and (max-width: 80em) {
+            body {
+            background-color: purple;
+            }
+            }
+
+
+
+
+
+
+    /* @media screen and (max-width: 768px) {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        img {
+            width: 100%;
+            height: auto;
+        }
+    } */
+</style>
+<body>
+    <!-- <img src="/Simple-Flex-Navbar/img/iphone6.png" alt=""> -->
+
+    <div id="div1">
+        <h1>this is div 1</h1>
+    </div>
+
+    <div id="div2">
+        <h1>this is div 2</h1>
+    </div>
+</body>
+</html>

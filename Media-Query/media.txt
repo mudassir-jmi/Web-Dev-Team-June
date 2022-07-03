@@ -1,0 +1,14 @@
+What is media query in CSS ❓
+
+CSS Media queries are a way to target browser by certain characteristics, features, and user preferences, then apply styles or run other code based on those things. Perhaps the most common media queries in the world are those that target particular viewport ranges and apply custom styles, which birthed the whole idea of responsive design.
+
+learn more about media query please visit websites given below 👇.........
+
+https://web.dev/learn/design/media-queries/
+https://css-tricks.com/a-complete-guide-to-css-media-queries/
+
+
+download all files please visit 👉 https://github.com/mudassir-jmi/Web-Dev-Team-June
+
+Thank you!❤️‍🔥
+@_mudassir_codes🚀🥰🥰
