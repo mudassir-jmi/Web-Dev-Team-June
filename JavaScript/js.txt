@@ -1,0 +1,42 @@
+All About JavaScript..........🚀
+
+JavaScript was invented By Brendan Eich in 1995. 
+it was developed for Netscap2 and became the ECMA-262 standard in 1997
+
+What is JavaScript....❓
+
+--🚀 JavaScript is light-weight object oriented programming language
+which is used by several websites for scripting the webpages. it is
+an interpreted thats enables dynamic interactivity on websites when applied to an 
+HTML document.........🚀
+
+Why JavaScript was Born....❓
+
+....Client Side Validation🚀
+....Create Interactive websites🚀
+....Event on click🚀
+
+Where is JavaScript now.....❓
+1. websites client side (Js, Jquery, Reactjs, Angular js)
+2. websites server side (Nodejs, Express js)
+3. Mobile Development (React Native)
+4. Software Development (electron js)  ex----vs code
+
+What is EMA-262.....❓
+....This is a standard published by ECMA International.
+it contains the specification for a general purpose scripting language.....🚀
+
+What is ECMASCRIPT....❓
+
+....The specification defined in ECMA-262 for creating a general purpose scripting language
+...ECMASCRIPT provides the rule, details and guidelines that a scripting language
+must observe tp considered ECMASCRIPT compliant....🚀
+
+check this......  http://www.ecma.international.org/default.htm
+
+.....🚀 if you want to know more about JavaScript visit this website 👇
+ 
+    https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+
+@_mudassir_codes😅.....🚀
