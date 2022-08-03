@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Types</title>
+</head>
+<body>
+    <h1>Data Types In JavaScript</h1>
+    <script>
+        // 1 Primitive DataTypes
+        // String, Number, Boolean, Undefined, Null
+          
+        // boolean
+         let x = 2>3;
+         console.log(x);
+         // undefiend
+         let a;
+         console.log(a);
+         // null
+         let b = null;
+         console.log(b);
+
+         //typeof
+         let y = true;
+         console.log(typeof y);
+
+         // Template litrals
+         let z = "world";
+        //  alert("hello" + z);
+        //  alert(`hello ${z}`);  //tild
+
+        // 2 Non-Primitive DataTypes
+        let student = ["Max", "Akhter","Osama"];
+        // console.log(typeof student);
+        // console.log(student[2]);
+        // object 
+        let person = {
+           Name: "xyz",
+           Age: 20, 
+           Address: "abc"
+        };
+        console.log(person);
+        
+        //Coditional Statement
+
+        // let age = 18;
+        // let hasVoterCard = 'No';
+        // if(age>=18 && hasVoterCard == 'yes') {
+        //     alert("you can vote");
+        // }else if(age>=18 && hasVoterCard != 'no' ) {
+        //    alert("get your voter id");
+        // }else {
+        //     alert("you cannot vote");
+        // }
+
+        // ternary operator 
+        let isLoggedIn = 1; // false
+        let option = isLoggedIn == 1 ? "login" : "logout";
+        console.log(option);
+
+        // ?? Nullish coalescing operator
+
+        let user;
+        // user = "akhter";
+        alert(user ?? "guest user");
+
+    </script>
+</body>
+</html>

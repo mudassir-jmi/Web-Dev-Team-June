@@ -88,13 +88,23 @@
         // Array 
         let aar = []; //aaray
         let arr1 = [1, 2, 3, 4, 5];
-        console.log(arr1[2]);
+        // console.log(arr1[2]);
 
         let obj = {  // object
+          
+        };
+       
+        let person = {
+            firstName: "Mudassir",
+            lastName: "Akhter",
+            age: 21,
 
-        }
-
-
+            // Create Method
+            fullName: function() {
+              console.log(this.firstName+" "+ this.lastName);
+            }
+        };
+        person.fullName();
 
     </script>
 </body>
