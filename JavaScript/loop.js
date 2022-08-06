@@ -66,11 +66,15 @@
 
 // type converstion using function
 
-let type = 2;
-// document.write(typeof type);
+// let type = 2;
+// // document.write(typeof type);
 
-let type1 = Boolean(type);
-document.write(typeof type1);
+// let type1 = Boolean(type);
+// document.write(typeof type1);
+
+
+
+
 
 
 
