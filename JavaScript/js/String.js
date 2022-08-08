@@ -41,9 +41,11 @@
 // let str1 = str.substring(8,18);
 // console.log(str1);
 
-// let str = "This is JavaScript";
-// let str1 = str.indexOf('This',5);
-// console.log(str1);
+let str = "This is JavaScript";
+let str1 = str.indexOf('is',3);
+let str2 = str.lastIndexOf('is');
+console.log(str1);
+console.log(str2);
 
 // Removing extra space or white space
 
@@ -59,9 +61,9 @@
 
 //escape sequence char
 
-let str = "java \t Script";
-console.log(str);
+// let str = "java \t Script";
+// console.log(str);
 
 
-
-
+let age = 21
+console.log(age);
