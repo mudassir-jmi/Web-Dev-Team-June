@@ -4,8 +4,8 @@
 
 // Declaration and Initialization 
 
-let book = ['JavaScript', 'Python', 'Node js'];
-console.log(book);
+let book1 = ['JavaScript', 'Python', 'Node js'];
+// console.log(book);
 
 // Get Element an Array
 // console.log(book[1]);
@@ -31,8 +31,8 @@ console.log(book);
 
 // Remove Element at any position of an Array
 
-book.splice(1,2);
-console.log(book);
+// book.splice(1,1);
+// console.log(book);
 
 // how to empty an Array
 // book = [];
@@ -93,3 +93,43 @@ const student = [
 //     value.payment = value.payment - 20;
 //     console.log(student);
 // })
+
+
+// filter function
+
+// const items = [
+//    { name: 'pen', price: 10},
+//    { name: 'book', price: 100},
+//    { name: 'Tv', price: 1000},
+// ]
+
+// const filterItems = items.filter((item) => {
+//     return item.price < 1000;
+// })
+
+// console.log(items);
+// console.log(filterItems);
+
+// map fucntion
+
+// const items = [
+//    { name: 'pen', price: 10},
+//    { name: 'book', price: 100},
+//    { name: 'Tv', price: 1000},
+// ]
+
+// const filterItems = items.map((item) => {
+//     return item.name;
+// })
+
+// console.log(items);
+// console.log(filterItems);
+
+let book = ['math','chem', 'bio','phy'];
+book.forEach(mybook);
+
+function mybook(a) {
+    console.log(a);
+}
+
+// mybook(); // call
