@@ -97,18 +97,18 @@ const student = [
 
 // filter function
 
-// const items = [
-//    { name: 'pen', price: 10},
-//    { name: 'book', price: 100},
-//    { name: 'Tv', price: 1000},
-// ]
+const items = [
+   { name: 'pen', price: 10},
+   { name: 'book', price: 100},
+   { name: 'shoe', price: 500},
+]
 
-// const filterItems = items.filter((item) => {
-//     return item.price < 1000;
-// })
+const filterItems = items.filter((item) => {
+    return item.price <= 100;
+});
 
-// console.log(items);
-// console.log(filterItems);
+console.log(items);
+console.log(filterItems);
 
 // map fucntion
 
@@ -125,11 +125,40 @@ const student = [
 // console.log(items);
 // console.log(filterItems);
 
-let book = ['math','chem', 'bio','phy'];
-book.forEach(mybook);
+// let book = ['math','chem', 'bio','phy'];
+// book.forEach(mybook);
 
-function mybook(a) {
-    console.log(a);
-}
+// function mybook(a) {
+//     console.log(a);
+// }
 
 // mybook(); // call
+
+// function test() {
+
+// }
+
+// const test2 = test
+// console.log(test2 === test);
+
+// Map function
+
+// let arr = [2, 3, 4, 5, 6];
+// let arr1 = [];
+
+// for(let i = 0; i < arr.length; i++) {
+//     arr1[i] = arr[i] * 2;
+// }
+
+// console.log(arr1);
+
+let arr = [2,3,4,5,6];
+let arr1 = arr.map((val)=> val * 3);
+console.log(arr1);
+
+
+var a;
+a = 0;
+a++;
+console.log(a);
+
