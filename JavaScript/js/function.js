@@ -75,11 +75,65 @@
 
 // Global Variable and Local Variable
 
-let fruit = "mango";   // global variable
-function sum () {
-   let result = 22;  // local variable
-   console.log(fruit);
-}
-// console.log(fruit);
-// console.log(result); 
-sum();
+// let fruit = "mango";   // global variable
+// function sum () {
+//    let result = 22;  // local variable
+//    console.log(fruit);
+// }
+// // console.log(fruit);
+// // console.log(result); 
+// sum();
+
+//  18 AUGUST 2022 🚀 😃 4:00 PM ⏲️
+
+// Default Parameter 🚀
+// function findArea(width, height) {
+//    height =  height === undefined ? 1 : height;
+//     const area = width * height;
+//     return area;
+// }
+// const area = findArea(10,20);
+// console.log(area);
+
+// Anonymous Function 🚀
+// let show = function () {
+//     console.log("hello");
+// }
+// show(); // call
+
+// 1 sec = 1000 mili sec
+// setTimeout(function () {
+//         console.log("hello");
+//     }, 3000);
+
+// Immediately Invoked Function 
+// function show1 () {
+//     console.log("javascript1");
+// }
+// show1();
+
+// (function () {
+//     console.log("javascript");
+// })(); // call
+
+// let msg = "hello js";
+// function show() {
+//     console.log(msg);
+// }
+// show();
+
+// Arrow Function 🚀
+// function sum (a, b) {
+//     return a+b;
+// }
+// sum(2,3);
+
+// let sum1 = (a, b) => {
+//     return a + b;
+// }
+// console.log(sum1(5,5));
+
+let sum1 = (a, b) => a + b;
+console.log(sum1(5,5));
+
+
