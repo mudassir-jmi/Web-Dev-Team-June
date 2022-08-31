@@ -137,3 +137,43 @@ let sum1 = (a, b) => a + b;
 console.log(sum1(5,5));
 
 
+function Countdown()
+{
+    var currTime = 10;
+
+    var i = 10;
+
+    while (i>=0) {
+
+        if (currTime == 5)
+        {
+            setTimeout(function () {
+
+                document.getElementById("counter").innerHTML = "Warning Less than ½ way to launch, time left = " + currTime;
+    
+                currTime = currTime - 1;
+    
+            }, 1000 * i);
+    
+            i -= 1;
+        }
+        if (currTime == 0)
+        {
+            document.getElementById("counter").innerHTML = "Blast OFF"; 
+        }
+        else
+        {
+        setTimeout(function () {
+
+            document.getElementById("counter").innerHTML = "the time left is " + currTime;
+
+            currTime = currTime - 1;
+
+        }, 1000 * i);
+
+        i -= 1; /* same as i = i-1 */
+        }
+    };
+
+ 
+}
