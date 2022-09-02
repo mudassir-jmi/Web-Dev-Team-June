@@ -89,6 +89,6 @@ let person = new Object();
 person.name = "Akhter";
 person.age = 20;
 person.roll = 12;
-console.log(`${person.name}`);
+console.log(person.name);
 
 
