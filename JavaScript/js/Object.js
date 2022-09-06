@@ -85,10 +85,65 @@
 //     age : 20,
 // }
 // console.log(person.name);
-let person = new Object();
-person.name = "Akhter";
-person.age = 20;
-person.roll = 12;
-console.log(person.name);
+// let person = new Object();
+// person.name = "Akhter";
+// person.age = 20;
+// person.roll = 12;
+// console.log(person.name);
+
+
+
+// 06/09/2022  Tuesday 🚀 🚀
+//  Object Costructor 🚀 👇
+// function Student(First, Last, age) {
+//     this.firstName = First;
+//     this.lastName = Last;
+//     this.age = age;
+// }
+
+// let Student1 = new Student("Akhter", "Mudassir", 20);
+// let Student2 = new Student("Max", "Alam", 22);
+// console.log(Student2);
+
+// Nested Object 🚀 👇
+// var user = {
+//     id: 5,
+//     email: "abc2gmail.com",
+//     person: {
+//         name: 'abc',
+//         address: {
+//             street: 'ABCD',
+//             city: 'delhi'
+//         }
+//     }
+// }
+// console.log(user.person.address.city);
+
+// Hoisting In Js 🚀 👇
+
+
+// display();
+// function display() {
+//     console.log("Hello js");
+// }
+
+
+// let x; // declartion
+// console.log(x);
+// x = 2; // assignment
+
+'use strict'
+let x; // declare
+x = 4; //assignment
+console.log(x);
+
+
+
+
+
+
+
+
+
 
 
