@@ -8,27 +8,44 @@
 </head>
 <body>
     <h1>Let's Start DOM 🚀</h1>
-    <ul>
+    <!-- <ul>
         <li class="cl">list 1</li>
         <li id="first">list 2</li>
         <li class="cl">list 3</li>
-    </ul>
+    </ul> -->
 
+    <h3 class="head">heading 1</h3>
+    <p class="head">para 1</p>
+<div id="div1">
+    <h3>heading 2</h3>
+    <p class="p1">para 2</p>
+    <h3>heading 3</h3>
+    <p>para 3</p>
+</div>
  <script>
         // slect an Element By Id
         // let element = document.getElementById('first');
         // console.log(element); // get value
         // element.innerHTML = "Hello";  // set value
         // select element by className
-         let element = document.getElementsByClassName('cl');
-        //  console.log(element);
-         for(let i= 0; i<element.length; i++) {
-            element[i].innerText = "by";
-         }
+        //  let element = document.getElementsByClassName('cl');
+        // //  console.log(element);
+        //  for(let i= 0; i<element.length; i++) {
+        //     element[i].innerText = "by";
+        //  }
           // Read these property 👇
          // innerText
          // innerHTML
          // outerHTML
+        //  Select Elemet By Tag Name 
+        // let ele = document.getElementsByTagName('h3');
+        // for(let i = 0; i<ele.length; i++) {
+        //     ele[i].innerHTML = 'hello ';
+        // }
+        //  Query selector 
+        //  let ele = document.querySelector('h1');
+        //  console.log(ele);
+        
     </script>
 </body>
 </html>
