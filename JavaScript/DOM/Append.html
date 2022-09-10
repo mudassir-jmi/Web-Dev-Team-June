@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Append | Child</title>
+</head>
+<body>
+    <!-- Append Child -->
+    <div id="para">
+        <p>Hello this is paragraph</p>
+    </div>
+
+    <script>
+         // Append Element 🚀
+            let elm = document.querySelector('#para');
+            let h1 = document.createElement('h1');
+            let text = document.createTextNode('this is h1 tag');
+            h1.appendChild(text);
+            elm.appendChild(h1);
+    </script>
+</body>
+</html>

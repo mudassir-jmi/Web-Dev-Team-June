@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>TagName | QuerySelector</title>
+</head>
+<body>
+    <!-- TagName -->
+        <h3 class="head">heading 1</h3>
+        <p class="head">para 1</p>
+          <!-- QuerySelector -->
+            <div id="div1">
+                <h1>heading 2</h1>
+                <p class="p1">para 2</p>
+                <h3>heading 3</h3>
+                <p>para 3</p>
+            </div>
+
+    <script>
+        //  Select Elemet By Tag Name 
+        let ele1 = document.getElementsByTagName('h3');
+        for(let i = 0; i<ele.length; i++) {
+            ele1[i].innerHTML = 'hello ';
+        }
+        //  Query selector 
+         let ele = document.querySelector('h1');
+         console.log(ele);
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class | ID</title>
+</head>
+<body>
+    <ul>
+            <li class="cl">list 1</li>
+            <li id="first">list 2</li>
+            <li class="cl">list 3</li>
+        </ul>
+
+        <script>
+             // select an Element By Id
+        let element = document.getElementById('first');
+        console.log(element); // get value
+        element.innerHTML = "Hello";  // set value
+        // select element by className
+         let element = document.getElementsByClassName('cl');
+        //  console.log(element);
+         for(let i= 0; i<element.length; i++) {
+            element[i].innerText = "by";
+         }
+          // Read these property 👇
+         // innerText
+         // innerHTML
+         // outerHTML
+        </script>
+</body>
+</html>
