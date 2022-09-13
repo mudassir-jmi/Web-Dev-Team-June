@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Adjacent | HTML ✖️</title>
+</head>
+<body>
+    <h1>Insert Adjacent HTML ✖️</h1>
+     <div id="item">
+        <h2>This is Heading</h2>
+        <p>This is paragraph tag</p>
+        <p>This is new paragraph tag</p>
+     </div>
+
+    <script>
+      let elm = document.querySelector('#item');
+      let html = "<h1>This is H1 Tag</h1>";
+      elm.insertAdjacentHTML('beforebegin', html );
+      elm.insertAdjacentHTML('afterend', html );
+      // elm.insertAdjacentHTML('beforebegin', html );
+      // elm.insertAdjacentHTML('afterbegin', html );
+    </script>
+</body>
+
+</html>

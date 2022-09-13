@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Clone | Element 🤡</title>
+</head>
+<body>
+    <h1>Clone  Element 🤡</h1>
+    <ul id="item">
+        <li>Home</li>
+        <li>Product</li>
+        <li>About US</li>
+    </ul>
+
+    <script>
+        let parent = document.querySelector('#item');
+        let clone = parent.cloneNode(true);
+        // console.log(clone);
+        document.body.appendChild(clone);
+        // Change id of copy element
+        clone.id = 'item-list';
+    </script>
+</body>
+
+</html>

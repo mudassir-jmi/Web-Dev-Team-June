@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Replace | Element 🚮</title>
+</head>
+<body>
+    <h1>Replace Element 🚮</h1>
+    <ul id="item">
+        <li>Home</li>
+        <li>Product</li>
+        <li>About US</li>
+    </ul>
+
+    <script>
+        let parent = document.querySelector('#item');
+        let item = document.createElement('li');
+        item.textContent = 'Contact';
+        //  console.log(item);
+         let replace = parent.firstElementChild;
+         parent.replaceChild(item,replace);
+    </script>
+</body>
+</html>
