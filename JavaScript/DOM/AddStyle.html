@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Add | Style 🙂 </title>
+</head>
+<body>
+    <h1>Add Style Using JavaScript 👻</h1>
+    <div id="parent">
+        <h1 class="heading">This is H1 Tag :)</h1>
+    </div>
+    <style>
+        .title {
+            color: red;
+        }
+    </style>
+    <script>
+        const heading =  document.querySelector('#parent');
+        // console.log(heading);
+        heading.innerHTML = 'This is my Heading';
+        // heading.style.color = 'red';
+        // heading.style.fontSize = '70px';
+        // heading.classList.add('title');
+        // heading.classList.remove('title');
+        // heading.style.cssText = "background-color: blue; color: white;";
+        // heading.setAttribute('style', 'background-color: red');
+         document.querySelector('#parent').className = 'title';
+    </script>
+</body>
+</html>
