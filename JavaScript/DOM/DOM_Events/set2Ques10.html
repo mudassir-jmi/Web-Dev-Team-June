@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // question no 10 solution 👇
+        // let value;
+            // function calc(value) {
+            // return eval(value);
+            // }
+            // console.log(calc("20-4"));
+            function calc(str) {
+                return Function(`return(${str})`)();
+            }
+            console.log(calc('20/4'));
+
+// function fun() {
+// let a = 5, b = 5;
+// return new Function(`alert(${a} + ${b})`)();
+// }
+// fun();
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

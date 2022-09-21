@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Mini | Project 🚀</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            document.querySelector('#red').onclick = function () {
+                // change font color to red  
+                document.querySelector('#hello').style.color = 'red';
+            }
+            document.querySelector('#blue').onclick = function () {
+                // change font color to blue  
+                document.querySelector('#hello').style.color = 'blue';
+            }
+            document.querySelector('#green').onclick = function () {
+                // change font color to green  
+                document.querySelector('#hello').style.color = 'green';
+            }
+        })
+      
+    </script>
+</head>
+<body>
+    <h1 id="hello">Hello !</h1>
+    <button id="red">Red</button>
+    <button id="blue">Blue</button>
+    <button id="green">Green</button>
+</body>
+</html>
