@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Todo | List 👨‍🏫</title>
+</head>
+<body>
+    <h1>Tasks 👨‍🏫</h1>
+    <ul id="tasks">
+    </ul>
+    <form>
+        <input id="task" placeholder="Type New Task" type="text">
+        <input id="submit" type="submit">
+    </form>
+        <script>
+            // By defualt submit  button is disabled
+            document.querySelector('#submit').disabled = true;
+            // When type something in input field button is enable
+            document.querySelector('#task').onkeyup = () => {
+                document.querySelector('#submit').disabled= false;
+            }
+            document.querySelector('form').onsubmit = () => {
+                const task = document.querySelector('#task').value;
+                // console.log(task);
+                const li = document.createElement('li');
+                 li.innerHTML = task;
+                 document.querySelector('#tasks').append(li);
+                 // clear previous inputs
+                 document.querySelector('#task').value = '';
+                 document.querySelector('#submit').disabled = true;
+                // stop form from submitting 
+                return false;
+            }
+        </script>
+</body>
+</html>
