@@ -2,20 +2,22 @@
 <html lang="en">
 <head>
     <title>Counter</title>
-    <script>
-       let Counter = 0;
-       function count(){
-        //   counter = counter + 1;
-        //   counter +=1;
-          Counter++;
-          alert(Counter);
-       } 
-    </script>
 </head>
 <body>
     <!-- Click Event -->
-    <h1>Hello!</h1>
+    <h1>0</h1>
     <button>Click Me!</button>
+    <script>
+        let Counter = 0;
+        function count() {
+            //   counter = counter + 1;
+            //   counter +=1;
+            Counter++;
+         document.querySelector('h1').innerHTML = Counter;
+        }
+  
+        document.querySelector('button').onclick = count;
+        setInterval(count, 500);
+    </script>
 </body>
-
 </html>
