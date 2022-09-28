@@ -7,7 +7,6 @@
                 }else {
                      document.querySelector('#submit').disabled= true;
                 }
-                
             }
             document.querySelector('form').onsubmit = () => {
                 const task = document.querySelector('#task').value;

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Object Model 🚀</title>
+</head>
+<body>
+    <button id="btn">Click</button>
+    <script>
+        // var name = 'xyz';
+        // console.log(window.name);
+        // let age = 21;
+        // console.log(window.age);
+
+        // function display() {
+        //     console.log('hello world');
+        // }
+        // window.display();
+
+        // console.log(window.innerHeight);
+        // console.log(window.innerWidth);
+        let btn = document.querySelector('#btn');
+        let url = 'https://www.google.com';
+        let features = 'height=500 , width=500';
+        btn.addEventListener('click', function() {
+            window.open(url, 'google', features);
+        });
+       
+    </script>
+</body>
+</html>
