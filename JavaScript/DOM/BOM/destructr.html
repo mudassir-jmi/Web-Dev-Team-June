@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    //    let book = ['Js', 600, 1000];
+    //    console.log(book[1]);
+    // let bookName = book[0];
+    // let bookCost = book[1];
+    // let bookPage = book[2];
+    // let[bookName, point,  bookCost, bookPage= 200] = book;
+    // console.log(bookPage);
+
+
+    // object destructuring
+    let book = {
+        name: 'js',
+        price: '500',
+        page: 1000
+    };
+//    let name = book.name;
+//    console.log(name);
+// ES6
+    let{name, price, page, point=100} = book;
+    console.log(point);
+    </script>
+</body>
+</html>
