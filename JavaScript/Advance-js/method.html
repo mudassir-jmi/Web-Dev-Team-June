@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--  -->
+   
+    <script>
+    // const arr = [1, 2, 3, 1, 4, 3];
+    // const duplicate = arr => arr.filter((item, index) => arr.indexOf(item) ===index)
+    // const dupEle = duplicate(arr);
+    // console.log(dupEle);
+    // 2nd Method 
+    // const arr1 = new Set(arr);
+    // console.log(arr1);
+
+    // Map Method 
+    const arr = [10, 20, 30,40];
+    const newarr = arr.map((value,index,array) => {
+        console.log(value, index,array);
+        return value + 1;
+    })
+    // filter 
+    //    const arr = [5,2,4,10,20];
+    //    const arr1 = arr.filter((value) => {
+    //        return value > 5;
+    //    }) 
+    //    console.log(arr1);
+
+       // reduce
+            // const arr = [5, 2, 4, 10, 20];
+            //     const arr1 = arr.reduce((num1 , num2) => {
+            //         return num1 * num2;
+            //     })
+            //     console.log(arr1);
+    </script>
+</body>
+</html>
